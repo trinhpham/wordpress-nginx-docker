@@ -1,3 +1,13 @@
+# Shortest steps
+Make sure you have latest version of docker & docker-compose
+- Copy file `.env_example` to `.env`
+- Run command
+```
+mkdir -p certs/ certs-data/ logs/nginx/ mysql/ wordpress/
+docker-compose up -d
+```
+- Go to http://localhost and Wordpress should be ready
+
 # WordPress: with Nginx web server in Docker
 
 This project is a docker compose installation of a single site WordPress instance using Nginx as the web server and MariaDB as the database.
